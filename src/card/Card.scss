@@ -1,0 +1,31 @@
+.card-container {
+    background-color: white;
+    color: black;
+    height: 7.5rem;
+    border-radius: 1rem;
+    margin: 0.7rem 1rem;
+    text-align: center;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.card-img {
+    height: 4rem;
+    margin: 1rem 0 0.3rem;
+    transition: all .2s ease-in-out;
+}
+
+.title {
+    margin: 0.3rem;
+}
+
+.card-list {
+    text-align: left;
+}
+
+.card-container:hover {
+    box-shadow: 0 0 1rem 0.2rem rgb(86, 86, 184);
+    .card-img {
+        transform: scale(1.3);
+    }
+}
