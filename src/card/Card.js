@@ -3,6 +3,7 @@ import "./Card.scss";
 
 const Card = ({category}) => {
     const [showOptions, setShowOptions] = useState(false)
+    
     return (
         <div className="card-container" onClick={ () => setShowOptions(!showOptions)}>
             {showOptions ? (
